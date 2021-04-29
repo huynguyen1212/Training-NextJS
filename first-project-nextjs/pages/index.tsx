@@ -10,6 +10,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="/css/global.css" />
       </Head>
 
       <main className={styles.main}>
