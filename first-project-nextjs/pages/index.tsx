@@ -2,6 +2,9 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  let firstName: String = "hi Huy";
+  let isLoading: boolean;
+
   return (
     <div className={styles.container}>
       <Head>
