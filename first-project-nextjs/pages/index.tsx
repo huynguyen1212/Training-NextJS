@@ -2,17 +2,17 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  // let firstName: String = "hi Huy";
-  // let isLoading: boolean;
+  let firstName: String = "hi Huy";
+  let isLoading: boolean;
 
   return (
     <div className={styles.container}>
       {/* commont */}
-      {/* <Head>
+      <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/css/global.css" />
-      </Head> */}
+      </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
